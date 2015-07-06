@@ -41,7 +41,7 @@ case "$TERM" in
 esac
 
 # uncomment for a colored prompt, if the terminal has the capability; turned
-# off by default to not distract the user: the focus in a terminal window
+# off by default to not distract the user: the focus in a terminal windw
 # should be on the output of commands, not on the prompt
 #force_color_prompt=yes
 
@@ -56,7 +56,7 @@ if [ -n "$force_color_prompt" ]; then
     fi
 fi
 
-PS1='\[\e[1;32m\]\H\[\e[0m\] :: \[\e[1;30m\]\d\[\e[0m\] \@ :: \[\e[1;33m\]\w\n\[\e[1;34m\]\u $ \[\033[0m\]'
+PS1='\[\e[1;34m\]\u@\[\e[1;32m\]\H\[\e[0m\]: \[\e[1;30m\]\d\[\e[0m\] \@: \[\e[1;33m\]\w\n$ \[\033[0m\]'
 [[ "$PS1" ]] && /usr/games/fortune | /usr/games/cowsay -n
 unset color_prompt force_color_prompt
 
