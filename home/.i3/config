@@ -170,3 +170,6 @@ exec feh --bg-scale ~/Pictures/hills.jpg
 
 # Capslock as Escape
 exec xmodmap ~/.xmodmap
+
+# titlebar
+new_window 1pixel
